@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ariels1996/PRsite_for_everyone.git"
+    "url": "git+https://github.com/ariels1996/codeA3i.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ariels1996/PRsite_for_everyone/issues"
+    "url": "https://github.com/ariels1996/codeA3i/issues"
   },
-  "homepage": "https://github.com/ariels1996/PRsite_for_everyone#readme",
+  "homepage": "https://github.com/ariels1996/codeA3i#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
   }
