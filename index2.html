@@ -2,10 +2,21 @@
 
 <html>
 	<head>
-		<title>Visualize by TEMPLATED</title>
+        <title>Visualize by TEMPLATED</title>
+
+        <!-- Required meta tags always come first -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap CSS -->
+        <!-- build:css css/main.css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <!-- endbuild -->
+       
 	</head>
 	<body>
 
@@ -17,24 +28,30 @@
 						<div id="logo">
                             <a href="#">i need logo Image</a>
                         </div>
-                        <div id="nav_outer">
-                            <div id="nav">
-                                <ul>
-                                    <li class="category">
-                                        <a href="#">LOOKBOOK</a>
-                                    </li>
-                                    <li class="category">
-                                        <a href="#">ARTWORK</a>
-                                    </li>
-                                    <li class="category">
-                                        <a href="#">ABOUT US</a>
-                                    </li>
-                                    <li class="category">
-                                        <a href="#">CONTACT</a>
-                                    </li>
-                                </ul>
+                        <nav id="nav_outer" class="navbar navbar-dark navbar-expand-sm fixed-top">
+                            <div class="container">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="Navbar">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">LOOKBOOK</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./artwork.html">ARTWORK</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">ABOUT US</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">CONTACT</a>
+                                        </li>
+                                    </ul>
+                                </div> 
                             </div>
-                        </div>
+                        </nav>
+                       
 					</header>
                     <div id="contents" style="width: 100%; max-width: 100%; padding: 0px; margin-top: -30px; min-height: 362px;">
     
@@ -63,11 +80,15 @@
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main.js"></script>
+        <!-- Scripts -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
