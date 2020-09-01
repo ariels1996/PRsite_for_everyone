@@ -9,7 +9,11 @@ header {
 }
 
 .navbar-nav .nav-item {
-    padding: 0px 50px 40px;
+    padding: 0px 30px 40px;
+}
+
+.navbar-nav .nav-item a {
+    padding: 0px 10px;
 }
 
 .row-header {
@@ -38,6 +42,7 @@ body {
     z-index: 0; }
   
 .main-photo {
+    margin-top: 30px;
     top: 0; }
 
 .no-padding {
