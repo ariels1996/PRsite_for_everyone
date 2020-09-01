@@ -8,12 +8,17 @@ header {
     margin: 100px 0px 50px;
 }
 
+.text-eng {
+    font-family: Didot;
+}
+
 .navbar-nav .nav-item {
     padding: 0px 30px 40px;
 }
 
 .navbar-nav .nav-item a {
     padding: 0px 10px;
+    color: black;
 }
 
 .row-header {
@@ -27,7 +32,7 @@ header {
     min-height: 400px; }
   
 .footer {
-    background-color: #D1C4E9;
+    background-color: #ddd;
     margin: 0px auto;
     padding: 20px 0px; }
   
@@ -41,8 +46,9 @@ body {
     padding: 0px 0px 0px 0px;
     z-index: 0; }
   
-.main-photo {
+#main {
     margin-top: 30px;
+    text-align: center;
     top: 0; }
 
 .no-padding {
