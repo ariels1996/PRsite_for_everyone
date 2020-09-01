@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/main2.css" />
         <!-- endbuild -->
        
 	</head>
@@ -24,17 +24,18 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<div id="logo">
-                            <a href="#">i need logo Image</a>
+					<header id="header" class="row">
+						<div id="logo" class="col-12 d-none d-sm-block">
+                            <a href="#"><img src="images/logo.png"></a>
                         </div>
-                        <nav id="nav_outer" class="navbar navbar-dark navbar-expand-sm fixed-top">
-                            <div class="container">
+                        <nav id="nav_outer" class="col-12 navbar navbar-expand-sm">
+                            <div class="container d-flex justify-content-around">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
+                                <a class="navbar-brand mr-auto d-sm-none" href="#">brand logo</a>
                                 <div class="collapse navbar-collapse" id="Navbar">
-                                    <ul class="navbar-nav mr-auto">
+                                    <ul class="navbar-nav mr-auto mx-auto">
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">LOOKBOOK</a>
                                         </li>
@@ -56,16 +57,26 @@
                     <div id="contents" style="width: 100%; max-width: 100%; padding: 0px; margin-top: -30px; min-height: 362px;">
     
 				<!-- Main -->
-					<section id="main">                
-                        <ul>
-                            <li><a href="#none"><img src="images/thumbs/03.jpg"></a></li>
-                            <li><a href="#none"><img src="images/thumbs/04.jpg"></a></li>
-                            <li><a href="#none"><img src="images/thumbs/05.jpg"></a></li>
-                        </ul>
-					</section>
+					<div id="main" class="main-photo container-fluid no-padding">                
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#none"><img src="images/fulls/03.jpg" class="img-fluid" alt="Responsive image"></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#none"><img src="images/fulls/04.jpg" class="img-fluid" alt="Responsive image"></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="#none"><img src="images/fulls/05.jpg" class="img-fluid" alt="Responsive image"></a>
+                            </div>
+                        </div>        
+					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
+					<footer class="footer">
                         <ul class="copy">
                             <li>
                                 <p>COMPANY : CodeA3i</p>
