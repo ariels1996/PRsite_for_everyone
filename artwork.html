@@ -2,10 +2,21 @@
 
 <html>
 	<head>
-		<title>Visualize by TEMPLATED</title>
+        <title>Visualize by TEMPLATED</title>
+
+        <!-- Required meta tags always come first -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap CSS -->
+        <!-- build:css css/main.css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="assets/css/main2.css" />
+        <!-- endbuild -->
+       
 	</head>
 	<body>
 
@@ -13,57 +24,87 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<div id="logo">
-                            <a href="./index2.html">i need logo Image</a>
+					<header id="header" class="row">
+						<div id="logo" class="col-12 d-none d-sm-block">
+                            <a href="./index2.html"><img src="images/logo.png"></a>
                         </div>
-                        <div id="nav_outer">
-                            <div id="nav">
-                                <ul>
-                                    <li class="category">
-                                        <a href="#">LOOKBOOK</a>
-                                    </li>
-                                    <li class="category">
-                                        <a href="#">ARTWORK</a>
-                                    </li>
-                                    <li class="category">
-                                        <a href="#">ABOUT US</a>
-                                    </li>
-                                    <li class="category">
-                                        <a href="#">CONTACT</a>
-                                    </li>
-                                </ul>
+                        <nav id="nav_outer" class="col-12 navbar navbar-expand-sm">
+                            <div class="container d-flex justify-content-around">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <a class="navbar-brand mr-auto d-sm-none" href="#">brand logo</a>
+                                <div class="collapse navbar-collapse" id="Navbar">
+                                    <ul class="navbar-nav mr-auto mx-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-eng" href="#">SHOP</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-eng" href="#">LOOKBOOK</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-eng" href="./artwork.html">ARTWORK</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-eng" href="#">ABOUT US</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-eng" href="#">CONTACT</a>
+                                        </li>
+                                    </ul>
+                                </div> 
                             </div>
-                        </div>
+                        </nav>
+                       
 					</header>
                     <div id="contents" style="width: 100%; max-width: 100%; padding: 0px; margin-top: -30px; min-height: 362px;">
     
 				<!-- Main -->
-					<section id="main">                
-                        이부분에 링크들 들어감
-					</section>
+					<div id="artwork-main" class="main-photo container-fluid no-padding">                
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="#none"><img src="images/fulls/03.jpg" class="img-fluid" alt="Responsive image"></a>
+                            </div>
+        
+                            <div class="col-md-4">
+                                <a href="#none"><img src="images/fulls/04.jpg" class="img-fluid" alt="Responsive image"></a>
+                            </div>
+                        
+                            <div class="col-md-4">
+                                <a href="#none"><img src="images/fulls/05.jpg" class="img-fluid" alt="Responsive image"></a>
+                            </div>
+                        </div>        
+					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-                        <ul class="copy">
-                            <li>
-                                <p>COMPANY : CodeA3i</p>
-                                <p>OWNER : ...</p>
-                                <p>BUSINESS NO. : ...</p>
-                                <p>TEL : ...</p>
-                                <p>E-MAIL : ... @ ...</p>
-                                <p>ADDRESS : 서울특별시 ...</p>
-                            </li>
+					<footer class="footer">
+                        <div class="copy row">
+                            <div class="col-12 col-4 order-last">
+                                <p>CALL 010-4734-5047</p>
+                                <p>MON_FRI AM 11:00 - PM 6:00</p>
+                                <p>BANK INFO.</p>
+                                <p>COMPANY. 블루디블루(bludi-blu)</p>
+                                <p>OWNER. 이지용 김경덕 윤제찬</p>
+                                <p>ADDRESS. 경기도 용인시 기흥구 덕용대로 2077번길 47, 4층</p>
+                                <p>E-MAIL. official@bludi-blu.com</p>
+                                <p>BUSINESS LICENSE. 770-86-01626</p>
+                                <p>ONLINE LICENSE.</p>
+                                <p>COPYRIGHT</p>
+                            </div>
                         </ul>
 					</footer>
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main.js"></script>
+        <!-- Scripts -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
