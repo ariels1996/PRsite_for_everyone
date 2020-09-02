@@ -1,23 +1,38 @@
-#wrapper {
-    padding: 0px 15px;
-}
 
 header {
     text-align: center;
     background: white;
-    margin: 0px auto;
+    margin: 0px 0px 10px;
 }
 
 #logo {
-    margin: 100px 0px 50px;
+    margin: 100px 0px 30px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.col-12 {
+    padding: 0px;
+}
+
+.navbar-brand {
+    text-align: center;
+    width: auto; height: auto;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .text-eng {
     font-family: Didot;
 }
-
+#nav-container {
+    padding: 20px 15px 20px;
+}
 .navbar-nav .nav-item {
-    padding: 0px 30px 40px;
+    padding: 0px 20px 40px;
 }
 
 .navbar-nav .nav-item a {
@@ -25,33 +40,17 @@ header {
     color: black;
 }
 
-.row-header {
-    margin: 0px auto;
-    padding: 0px 0px; }
-  
-.row-content {
-    margin: 0px auto;
-    padding: 50px 0px;
-    border-bottom: 1px ridge;
-    min-height: 400px; }
-  
 .footer {
     background-color: #ddd;
     margin: 180px 0px 0px;
-    padding: 20px 0px; }
-  
-.jumbotron {
-    margin: 0px auto;
-    padding: 70px 30px;
-    background: #9575CD;
-    color: floralwhite; }
+    padding: 20px 15px; }
   
 body {
     padding: 0px 0px 0px 0px;
     z-index: 0; }
   
 #main {
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
     top: 0; }
 
@@ -64,7 +63,7 @@ body {
     padding-left: 0;
     padding-right: 0; }
 
-  .tab-content {
+.tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
