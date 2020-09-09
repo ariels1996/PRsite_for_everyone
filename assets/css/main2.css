@@ -46,7 +46,7 @@ header {
 
 .footer {
     background-color: #ddd;
-    margin: 180px 0px 0px;
+    margin: 80px 0px 0px;
     padding: 20px 15px; }
   
 body {
@@ -81,6 +81,10 @@ body {
     margin: 0px 3px;
     font-size: 10px; }
 
+.intro-text p {
+    margin: 0px;
+}
+
 .container {
     position: relative;
     overflow: hidden;
@@ -104,6 +108,10 @@ body {
     width: 100%;
     padding-top: 100%;
 }
+
+.responsive-image {
+    width: 100%;
+    height: auto;}
 
 .responsive-frame {
     position: absolute;
