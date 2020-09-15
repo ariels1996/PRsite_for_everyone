@@ -96,11 +96,17 @@ header {
 .text-eng {
     font-family: Didot;
 }
+
+.nav-link{
+    font-style: oblique;
+    font-size: 25px;
+}
+
 #nav-container {
     padding: 15px 15px 10px;
 }
 .navbar-nav .nav-item {
-    padding: 0px 20px 40px;
+    padding: 0px 15px 40px;
 }
 
 .navbar-nav .nav-item a {
