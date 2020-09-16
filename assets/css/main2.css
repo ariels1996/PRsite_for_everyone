@@ -20,13 +20,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 
-#main_header{
-    display: block;
-    position:fixed;
-	width:100%;
-	top:0;
-    left:0;
-    z-index: 9999;
+@media (min-width:576px) {
+    #main_header{
+        display: block;
+        position:fixed;
+        width:100%;
+        top:0;
+        left:0;
+        z-index: 9999;
+    }
 }
 
 body {
@@ -70,7 +72,11 @@ header {
 }
 
 #logo {
-    margin: 100px 0px 30px;
+    margin: 50px 0px 70px;
+}
+
+#logo a img{
+    height: 150px;
 }
 
 .row {
